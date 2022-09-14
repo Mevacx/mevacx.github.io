@@ -19,11 +19,12 @@
         <form>
             <input type="number" id="din_input" placeholder="Ingrese su dinero">
             <button type="button" id="boton_acreditar" onclick="capturar_din()">Acreditar</button>
+            <button type="button" id="boton_cancelar" onclick="cancelar_din()">Cancelar</button>
             <button type="button" id="contador">0</button>
             
         </form>
         
-            <button>Fideos $150</button>
+            <button type="button" id="b_fideos" onclick="restar_del_total()">Fideos $150</button>
             <button>Arroz $120</button>
             <button>Harina $90</button>
             <button>Aceite $190</button>

@@ -136,11 +136,49 @@
   border-bottom-right-radius:10px;
   box-shadow: 0px 10px 14px -7px #3e7327;
   text-shadow: 0px 1px 0px #5b8a3c;
-  background:linear-gradient(#77b55a, #72b352);
+  background:linear-gradient(#498d2a, #569238);
   }
 
   #boton_acreditar:hover {
-    background: linear-gradient(#8fde67, #92e26d);
+    background: linear-gradient(#71c447, #71c34b);
   }
+
+  #contador {
+  font-size:14px;
+  font-family:Arial;
+  width:147px;
+  height:59px;
+  border-width:2px;
+  color:#666666;
+  border-color:#dcdcdc;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:linear-gradient(#ffffff, #f6f6f6);
+  }
+
+  #boton_cancelar {
+    font-size:15px;
+    font-family:Arial;
+    width:95px;
+    height:33px;
+    border-width:1px;
+    color:#fff;
+    border-color:#9f2323;
+    font-weight:bold;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    box-shadow: 0px 10px 14px -7px #000000;
+    text-shadow: 0px 1px 0px #8a3c3ca0;
+    background:linear-gradient(#ba1111, #eb2d2d);
+    }
+  
+    #boton_cancelar:hover {
+      background: linear-gradient(#dc2121, #d71212);
+    }
  
 
